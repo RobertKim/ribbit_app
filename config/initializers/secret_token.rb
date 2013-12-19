@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Ribbit::Application.config.secret_key_base = '559c9fc61c0bd64ec61f3c89613079d88018feaaa913ac24fedf3c26f75d8db8db39e040f4c0bc1b657529878bb7c38f3151cf8f2b4f45bce835ee985da6beb4'
+RibbitApp::Application.config.secret_key_base = '559c9fc61c0bd64ec61f3c89613079d88018feaaa913ac24fedf3c26f75d8db8db39e040f4c0bc1b657529878bb7c38f3151cf8f2b4f45bce835ee985da6beb4'
