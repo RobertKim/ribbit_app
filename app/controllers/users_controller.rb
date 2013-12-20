@@ -7,7 +7,7 @@ class UsersController < ApplicationController
 	def create
 		@user = User.new(params[:user]) #Failed validation will render 'new' auto-populated.
 		if @user.save
-			session[user_id]
+			session[:user_id] = @user.id
 			redirect_to @user, notice: "Thank you for signing up to Ribbit!"
 		else
 			render 'new'		
